@@ -24,7 +24,7 @@ jobs:
       - name: Execute committer
         run: |
           npm install
-          git config --global user.name "Turja Ziram"
-          git config --global user.email "turjaxziram@gmail.com"
+          git config --global user.name "Jubili Karan"
+          git config --global user.email "jubilikaran@gmail.com"
           node ${GITHUB_WORKSPACE}/index.js
           git push origin main
